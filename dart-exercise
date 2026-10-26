@@ -1,0 +1,27 @@
+void main() {
+  // Student information
+  String studentName = 'Jeremiah Cunanan';
+  int numberOfCourses = 5;
+  double averageGrade = 89.5;
+  bool isPassed = averageGrade >= 75;
+
+  // Arithmetic operations
+  double gradeAfterBonus = averageGrade + 2.0;
+  int subjectsPerGroup = numberOfCourses ~/ 2;
+  int remainingSubjects = numberOfCourses % 2;
+
+  // Comparison operations
+  bool hasHighGrade = averageGrade >= 90;
+  bool isNotFailing = averageGrade != 0;
+
+  // Display results
+  print('Student Name: $studentName');
+  print('Number of Courses: $numberOfCourses');
+  print('Total Average: $averageGrade');
+  print('Grade with Bonus: $gradeAfterBonus');
+  print('Subjects per group: $subjectsPerGroup');
+  print('Remaining subjects: $remainingSubjects');
+  print('Passed : $isPassed');
+  print('With Honor : $hasHighGrade');
+  print('Student not Failing? :  $isNotFailing');
+}
