@@ -1,0 +1,9 @@
+Student Name: Jeremiah Cunanan
+Number of Courses: 5
+Total Average: 89.5
+Grade with Bonus: 91.5
+Subjects per group: 2
+Remaining subjects: 1
+Passed : true
+With Honor : false
+Student not Failing? :  true
